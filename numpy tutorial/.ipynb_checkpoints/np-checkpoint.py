@@ -1,0 +1,12 @@
+import numpy as np
+myarr=np.array([3,6,22,34,7])
+print(myarr)
+arr2=np.array([1,2,3,4,5,6], np.int64)
+print(arr2)
+print(myarr[0])
+twoDarr=np.array([[1,2,3,5,7,9,10]])
+print(twoDarr)
+print(twoDarr[0])
+print(twoDarr[0][1])
+print(twoDarr.shape)
+print(twoDarr.dtype)
